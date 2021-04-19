@@ -7,6 +7,14 @@
     margin-left:5%;
     margin-top:5%;
     box-shadow: 2px 2px 12px rgb(241, 239, 239);
+ transition: .3s ease-in-out;
+
+}
+.cart:hover{
+ transition: .3s ease-in-out;
+
+transform: scale(1.1);
+
 }
 .cart-img{
 height:40%;
@@ -20,10 +28,12 @@ border-radius: 5px;
     height:100%;
     width:100%;
     border-radius:5px;
+ transition: .3s ease-in-out;
+
 }
 .service-img:hover{
-
- 
+transform: scale(1.1);
+ transition: .3s ease-in-out;
 }
 
 .cart-title{
