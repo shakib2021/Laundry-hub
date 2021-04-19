@@ -1,0 +1,26 @@
+.contact-img{
+    background-image: url('../../../img/contact.jpg');
+    background-size:cover;
+    height: 400px;
+}
+.contact-in{
+    margin-top:5%;
+    height: 400px;
+}
+.contact-inp{
+    width:50%;
+}
+.cont{
+    background-image: url('../../../img/wave.svg');
+   background-size: cover;
+}
+@media screen and (max-width: 480px) {
+    .contact-in {
+        margin-left: 9%;
+    
+    }
+    .contact-img{
+        margin-right:6%;
+
+    }
+  }

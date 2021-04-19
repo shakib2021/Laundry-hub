@@ -1,0 +1,42 @@
+
+.orderCard{
+    height: 430px;
+    width:350px;
+    box-shadow: 2px 2px 12px rgb(190, 187, 187);
+    border-radius:5px;
+    float: left;
+    margin-left:4%;
+    margin-top:4%;
+}
+.card-order-img{
+    height:10%;
+   border-radius:5px;
+  }
+  .st{
+      margin-top:20%;
+  }
+.card-order-img img{
+    height:10%;
+    width:50%;
+ border-radius:5px;
+ margin-left:26%;
+ object-fit:contain;
+
+}
+.tex{
+    color: gray;
+}
+
+.st{
+  
+margin-left: 35%;
+}
+@media screen and (max-width: 480px) {
+    .si {
+     display: none;
+     
+    }
+    .orderCard{
+        margin-left:43px;
+    }
+  }

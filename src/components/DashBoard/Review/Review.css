@@ -1,0 +1,63 @@
+.ReviewCard{
+    height: 300px;
+    width:350px;
+    box-shadow: 2px 2px 12px rgb(190, 187, 187);
+    border-radius:5px;
+    float: left;
+    margin-left:4%;
+    margin-top:4%;
+}
+.card-Review-img{
+    height:10%;
+   border-radius:5px;
+  }
+  
+.card-Review-img img{
+    height:5%;
+    width:20%;
+ border-radius:360px;
+ margin-left:2%;
+ object-fit:contain;
+
+}
+.tex{
+    color: gray;
+    margin-left:10px;
+    margin-top:10px;
+}
+.texty{
+    margin-left:28%;
+    margin-top:-20px;
+    color:gray;
+    font-weight: bold;
+}
+.des{
+    margin-left: 10px;
+    color: rgba(24, 22, 22, 0.911);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+   
+    .orderCard{
+        margin-left:43px;
+    }
+    .t{
+        margin-right:8%;
+    }
+    .r{
+        margin-left:10%;
+    }
+  }
+  
+  
+  .t{
+      color: gray;
+      box-shadow: 2px 2px 12px rgb(187, 184, 184);
+  }
+  .r{
+      margin-left: 5%;
+  }
+ .revi{
+     margin-left:10%;
+ }

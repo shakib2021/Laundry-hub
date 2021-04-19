@@ -1,0 +1,26 @@
+.cover{
+    border-radius:5px;
+    margin-left:10%;
+    margin-top: 5%;
+}
+.headerMain{
+    height:600px;
+    width:100%;
+}
+@media screen and (max-width: 1000px) {
+    .headerMain{
+height:850px;
+
+    }
+  }
+.Wel{
+    margin-top: 10px;
+    color: rgb(93, 128, 224);
+}
+.wel-text{
+    margin-left:22%;
+    color: gray;
+}
+.g{
+    margin-left:22%;
+}

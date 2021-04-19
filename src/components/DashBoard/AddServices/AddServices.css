@@ -1,0 +1,16 @@
+.inp{
+margin-top: 2%;
+    margin-left: 10%;
+    height:40px;
+    width:339px;
+    border: 3px solid rgb(173, 223, 173);
+    outline: none;
+    border-radius:5px;
+}
+.t{
+    border: 3px solid rgb(173, 223, 173);
+    outline: none;
+    border-radius:5px;
+    margin-top: 2%;
+    margin-left: 10%;
+}

@@ -1,0 +1,29 @@
+.banner{
+    display: flex;
+    height:400px;
+    width: 80%;
+    box-shadow: 2px 2px 21px rgb(250, 249, 249);
+    margin-left: 10%;
+    border-radius: 5px;
+    
+}
+.discount-title{
+    text-align: center;
+    padding-top: 3%;
+}
+.sp{
+    color: rgba(255, 99, 71, 0.712);
+}
+.part-1{
+    background-image: url('../../../img/discount.jpg');
+    background-size:cover;
+    padding-left: 10%;
+    
+}
+.part-2{
+    border-radius: 5px;
+padding-left: 3px;
+background-image: url('../../../img/black-realistic.jpg');
+background-size:cover;
+
+}

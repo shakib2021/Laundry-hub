@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px) {
+    .si {
+     display: none;
+     
+    }
+    .orderCard{
+        margin-left:43px;
+    }
+  }

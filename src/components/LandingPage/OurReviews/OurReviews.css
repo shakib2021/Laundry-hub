@@ -1,0 +1,7 @@
+.reviewCard{
+    border-radius: 5px;
+    height:300px;
+    width:300px;
+   box-shadow: 2px 2px 12px rgb(247, 244, 244);
+   margin-left: 12px;
+}
