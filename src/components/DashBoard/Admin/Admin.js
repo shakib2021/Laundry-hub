@@ -7,7 +7,7 @@ const { handleSubmit ,register} = useForm();
  const onSubmit =(data)=>{
 
         let serve={ email:data.email }
-        fetch("http://localhost:5000/addAdmin",{
+        fetch("https://guarded-fjord-04672.herokuapp.com/addAdmin",{
          method:'POST',
           headers:{'content-type':'application/json'},
           body:JSON.stringify(serve)

@@ -5,7 +5,7 @@ import './OurReviews.css'
 const OurReviews = () => {
     let [allReviews,setAllReviews]=useState([])
     useEffect(()=>{
-   fetch('http://localhost:5000/showReviews')
+   fetch('https://guarded-fjord-04672.herokuapp.com/showReviews')
    .then(res=>res.json())
    .then(data=>setAllReviews(data))
 

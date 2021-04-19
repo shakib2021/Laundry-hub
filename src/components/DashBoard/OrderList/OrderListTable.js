@@ -11,7 +11,7 @@ let data={
     id:id,
     status:value
 }
-fetch("http://localhost:5000/update",{
+fetch("https://guarded-fjord-04672.herokuapp.com/update",{
     method:'PATCH',
     headers:{'content-type':'application/json'},
     body:JSON.stringify(data)

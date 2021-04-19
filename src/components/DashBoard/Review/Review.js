@@ -19,7 +19,7 @@ const Review = () => {
          
         }
     
-        fetch("http://localhost:5000/addReview",{
+        fetch("https://guarded-fjord-04672.herokuapp.com/addReview",{
     
        method:'POST',
        headers:{'content-type':'application/json'},

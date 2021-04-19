@@ -17,7 +17,7 @@ const AddServices = () => {
       img:imageURL
     }
 
-    fetch("http://localhost:5000/addservices",{
+    fetch("https://guarded-fjord-04672.herokuapp.com/addservices",{
 
    method:'POST',
    headers:{'content-type':'application/json'},

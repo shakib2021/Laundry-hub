@@ -8,7 +8,7 @@ const OurServices = () => {
 console.log(Data)
     useEffect(()=>{
 
-        fetch('http://localhost:5000/servicedata')
+        fetch('https://guarded-fjord-04672.herokuapp.com/servicedata')
         .then(res=>res.json())
         .then(data=>{
             setData(data)

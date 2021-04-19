@@ -16,7 +16,7 @@ const Bookings = () => {
     console.log(Data)
         useEffect(()=>{
     
-            fetch('http://localhost:5000/servicedata')
+            fetch('https://guarded-fjord-04672.herokuapp.com/servicedata')
             .then(res=>res.json())
             .then(data=>{
                 setData(data)
@@ -53,7 +53,7 @@ setOrderInfo(info)
 let orderInfoDetails={...orderInfo,paymentId}
        
 
-fetch('http://localhost:5000/saveorders',{
+fetch('https://guarded-fjord-04672.herokuapp.com/saveorders',{
     method: 'POST',
    headers: {'content-type': 'application/json'},
    body: JSON.stringify(orderInfoDetails)

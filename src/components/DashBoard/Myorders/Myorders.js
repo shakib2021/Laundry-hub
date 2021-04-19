@@ -12,7 +12,7 @@ let k=myorders.filter(ord=>ord.email==loggedInUser.email)
   
 useEffect(()=>{
 
-    fetch('http://localhost:5000/showorder')
+    fetch('https://guarded-fjord-04672.herokuapp.com/showorder')
     .then(res=>res.json())
     .then(data=>setMyorders(data))
 },[])
