@@ -23,7 +23,7 @@ function App() {
   console.log(loggedInUser.email)
  let [allAdmin,setAllAdmin]=useState([])
   useEffect(()=>{
-  fetch('http://localhost:5000/checkadmin')
+  fetch('https://guarded-fjord-04672.herokuapp.com/checkadmin')
   .then(res=>res.json())
   .then(admin=>setAllAdmin(admin))
   },[])
@@ -61,7 +61,7 @@ function App() {
        <PrivateRoute  path="/admin">
 <Admin></Admin>
        </PrivateRoute>
-       </>:<>
+      </>:<>
        <Route exact path='/'>
 <Home></Home>
       </Route>
